@@ -9,7 +9,7 @@ export const gridItems = [
     id: 1,
     title: "I harness data to create intelligent, scalable solutions.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]  ",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-50",
     titleClassName: "justify-end",
     img: "/b1.jpeg",
@@ -37,7 +37,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "AI enthusiast with a passion for Model developent.",
+    title: "AI enthusiast with a passion for Model development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -45,7 +45,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title:
@@ -87,7 +86,7 @@ export const projects = [
   {
     id: 2,
     title: "Instagram Data Analysis",
-    des: "Research on Instagram data of Lok sabha politicians. The data is fetched via Crowdtanlge",
+    des: "Research on Instagram data of Lok sabha politicians. The data is fetched via Crowdtangle",
     img: "/p2.jpeg",
     iconLists: [
       "/python.svg",
@@ -104,7 +103,7 @@ export const projects = [
     des: "A Generative model made using Generative adversarial network(GAN) and trained on Anime Faces dataset from Kaggle.",
     img: "/p3.jpeg",
     iconLists: ["/python.svg", "/jupyter.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://www.ui.aiimg.com",
   },
   {
     id: 4,
@@ -130,27 +129,27 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Adrian was a seamless experience. His attention to detail and commitment to excellence are unparalleled. Adrian's ability to understand complex requirements and translate them into functional solutions is impressive. Highly recommended!",
+    name: "Sarah Lee",
+    title: "CEO of Tech Innovators",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Adrian's expertise in frontend development is outstanding. His approach to problem-solving and innovative thinking make him an invaluable asset to any team. Adrian's work ethic and dedication to quality are truly commendable.",
+    name: "David Kim",
+    title: "Lead Developer at CodeCrafters",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Adrian has been a key player in our project's success. His ability to collaborate effectively and deliver high-quality results within tight deadlines sets him apart. Adrian's passion for technology and continuous learning is evident in his work.",
+    name: "Emily Davis",
+    title: "Product Manager at NextGen Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Adrian's contribution to our project was exceptional. His ability to adapt to changing requirements and deliver top-notch solutions is remarkable. Adrian's dedication to his craft and commitment to client satisfaction make him an excellent choice for any development project.",
+    name: "Mark Thompson",
+    title: "CTO of BrightFuture Tech",
   },
 ];
 
@@ -162,7 +161,7 @@ export const companies = [
   },
   {
     id: 2,
-    name: "tensorflow",
+    name: "TensorFlow",
     img: "/tensorflow-ww.svg",
   },
   {
@@ -170,10 +169,9 @@ export const companies = [
     name: "scikit-learn",
     img: "/sklearn.svg",
   },
-
   {
     id: 5,
-    name: "docker.io",
+    name: "Docker",
     img: "/docker-ww.svg",
   },
 ];

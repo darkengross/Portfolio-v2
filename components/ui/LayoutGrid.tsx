@@ -27,13 +27,11 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    // change md:grid-cols-3 to md:grid-cols-4, gap-4 to gap-10
     <div className="w-full h-full p-10 grid grid-cols-1 md:grid-cols-4 max-w-7xl mx-auto gap-10 ">
       {cards.map((card, i) => (
         <Button
           key={i}
           borderRadius="1.75rem"
-          //   default is 2000
           duration={10000}
           //   add className={cn(card.className, "")}
           className={cn(
@@ -83,7 +81,6 @@ const BlurImage = ({ card }: { card: Card }) => {
   return (
     <Image
       src={card.thumbnail}
-      //   change image scale 500 to 100
       height="100"
       width="100"
       onLoad={() => setLoaded(true)}
