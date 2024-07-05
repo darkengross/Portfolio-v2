@@ -9,9 +9,7 @@ const Approach = () => {
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
-      {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
@@ -36,9 +34,6 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
           title="Development & Launch"
@@ -82,7 +77,6 @@ const Card = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      {/* change to h-10 w-10 , add opacity-30  */}
       <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
@@ -114,7 +108,6 @@ const Card = ({
         >
           {title}
         </h2>
-        {/* add this one for the description */}
         <p
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
@@ -130,10 +123,6 @@ const Card = ({
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
-      {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-purple px-5 py-2 */}
-      {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
-      {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
